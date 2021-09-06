@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5922" started-at="2021-03-03T00:39:12 IST" finished-at="2021-03-03T00:39:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5922" started-at="2021-03-03T00:39:12 IST" finished-at="2021-03-03T00:39:18 IST">
+      <class name="com.maven.project.ExtentReports.ExtentReporting">
+        <test-method status="PASS" signature="configureReporting()[pri:0, instance:com.maven.project.ExtentReports.ExtentReporting@86be70a]" name="configureReporting" is-config="true" duration-ms="161" started-at="2021-03-03T00:39:12 IST" finished-at="2021-03-03T00:39:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReporting -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.maven.project.ExtentReports.ExtentReporting@86be70a]" name="invokeBrowser" duration-ms="5736" started-at="2021-03-03T00:39:12 IST" finished-at="2021-03-03T00:39:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- com.maven.project.ExtentReports.ExtentReporting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Test Automation Suite">
+  <test thread-count="5" name="TestNG Parameter FeatureTest">
+  
+  <parameter name="url" value="https://login.yahoo.com"></parameter>
+  <parameter name="uname" value="admin@gmail.com"></parameter>
+  <parameter name="pascode" value="12345"></parameter>
+  
+  
+    <classes>
+      <class name="com.parameters.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

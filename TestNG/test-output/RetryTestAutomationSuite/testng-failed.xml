@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryTestAutomationSuite]" parallel="none">
+  <listeners>
+    <listener class-name="com.analyzer.AnnotationTranformer"/>
+  </listeners>
+  <test name="RetryMultipleFailedTests(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="com.retrylogic.MyTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.retrylogic.MyTest -->
+    </classes>
+  </test> <!-- RetryMultipleFailedTests(failed) -->
+</suite> <!-- Failed suite [RetryTestAutomationSuite] -->

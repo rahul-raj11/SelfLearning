@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Selenium/TestNG/testng-6.7.jar" sourcepath="C:/Users/Rahul-raj/Downloads/testng-6.8.5-sources.jar/testng-6.8.5-sources"/>
+	<classpathentry kind="lib" path="C:/Users/Rahul-raj/Downloads/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/Selenium_Server/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/commons-io-2.8.0/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/commons-io-2.8.0/commons-io-2.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/commons-io-2.8.0/commons-io-2.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/commons-io-2.8.0/commons-io-2.8.0-tests.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/commons-io-2.8.0/commons-io-2.8.0-test-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

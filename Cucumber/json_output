@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Without \u0027Examples\u0027 keyword"
+          },
+          {
+            "line": 4,
+            "value": "#Scenario: Free CRM Login Test"
+          },
+          {
+            "line": 5,
+            "value": "#"
+          },
+          {
+            "line": 6,
+            "value": "#Given user is already on login page"
+          },
+          {
+            "line": 7,
+            "value": "#When title of login page is Cogmento CRM"
+          },
+          {
+            "line": 8,
+            "value": "#Then user enters \"sikriwal.rahulraj@gmail.com\" and \"123Admin\""
+          },
+          {
+            "line": 9,
+            "value": "#Then user clicks on login button"
+          },
+          {
+            "line": 10,
+            "value": "#And user is on home page"
+          },
+          {
+            "line": 11,
+            "value": "#With \u0027Examples\u0027 keyword"
+          },
+          {
+            "line": 12,
+            "value": "#Scenario Outline: Free CRM Login Test"
+          },
+          {
+            "line": 13,
+            "value": "#"
+          },
+          {
+            "line": 14,
+            "value": "#Given user is already on login page"
+          },
+          {
+            "line": 15,
+            "value": "#When title of login page is Cogmento CRM"
+          },
+          {
+            "line": 16,
+            "value": "#Then user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\""
+          },
+          {
+            "line": 17,
+            "value": "#Then user clicks on login button"
+          },
+          {
+            "line": 18,
+            "value": "#And user is on home page"
+          },
+          {
+            "line": 19,
+            "value": "#"
+          },
+          {
+            "line": 20,
+            "value": "#Examples:"
+          },
+          {
+            "line": 21,
+            "value": "#\t\t| username                    | password |"
+          },
+          {
+            "line": 22,
+            "value": "#\t\t| sikriwal.rahulraj@gmail.com | 123Admin |"
+          },
+          {
+            "line": 23,
+            "value": "#Using DataTables"
+          },
+          {
+            "line": 24,
+            "value": "#Scenario: Free CRM Login Test"
+          },
+          {
+            "line": 25,
+            "value": "#Given user is already on login page"
+          },
+          {
+            "line": 26,
+            "value": "#When title of login page is Cogmento CRM"
+          },
+          {
+            "line": 27,
+            "value": "#Then user enters username and password"
+          },
+          {
+            "line": 28,
+            "value": "#| sikriwal.rahulraj@gmail.com | 123Admin |"
+          },
+          {
+            "line": 29,
+            "value": "#Then user clicks on login button"
+          },
+          {
+            "line": 30,
+            "value": "#And user is on home page"
+          },
+          {
+            "line": 33,
+            "value": "#Data driven using Map"
+          }
+        ],
+        "line": 34,
+        "name": "Free CRM Login Test",
+        "description": "",
+        "id": "free-crm-loginfeature;free-crm-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15138068300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8978900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_cogmento_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2553525100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefination.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "sikriwal.rahulraj@gmail.com",
+                  "123Admin"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74823900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2072502900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM LoginFeature",
+    "description": "",
+    "id": "free-crm-loginfeature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

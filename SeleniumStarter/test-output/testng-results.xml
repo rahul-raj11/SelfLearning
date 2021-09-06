@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37" started-at="2021-02-24T22:24:30Z" finished-at="2021-02-24T22:24:30Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestngTutorial.demoMethod3()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod3" class="com.testng.starter.TestngTutorial"/>
+        <method signature="TestngTutorial.demoMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod" class="com.testng.starter.TestngTutorial"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="37" started-at="2021-02-24T22:24:30Z" finished-at="2021-02-24T22:24:30Z">
+      <class name="com.testng.starter.TestngTutorial">
+        <test-method status="PASS" signature="demoBeforeSuite()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeSuite" is-config="true" duration-ms="5" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeSuite -->
+        <test-method status="PASS" signature="demoBeforeTest()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeTest" is-config="true" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeTest -->
+        <test-method status="PASS" signature="demoBeforeClass()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeClass -->
+        <test-method status="PASS" signature="demoMethod1()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod1" duration-ms="7" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod1 -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoMethod3()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod3" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod3 -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoMethod5(java.lang.String, java.lang.String)[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod5" duration-ms="0" started-at="2021-02-25T03:54:30Z" data-provider="getData" finished-at="2021-02-25T03:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod5 -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoMethod5(java.lang.String, java.lang.String)[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod5" duration-ms="1" started-at="2021-02-25T03:54:30Z" data-provider="getData" finished-at="2021-02-25T03:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod5 -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoMethod5(java.lang.String, java.lang.String)[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod5" duration-ms="0" started-at="2021-02-25T03:54:30Z" data-provider="getData" finished-at="2021-02-25T03:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod5 -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoParamitarized(java.lang.String)[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoParamitarized" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoParamitarized -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoBeforeMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBeforeMethod -->
+        <test-method status="PASS" signature="demoMethod2()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoMethod2" duration-ms="1" started-at="2021-02-25T03:54:30Z" depends-on-methods="com.testng.starter.TestngTutorial.demoMethod5" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod2 -->
+        <test-method status="PASS" signature="demoAftereMethod()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAftereMethod" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAftereMethod -->
+        <test-method status="PASS" signature="demoAfterClass()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAfterClass" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAfterClass -->
+        <test-method status="PASS" signature="demoAfterTest()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAfterTest" is-config="true" duration-ms="1" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAfterTest -->
+        <test-method status="PASS" signature="demoAfterSuite()[pri:0, instance:com.testng.starter.TestngTutorial@4de5031f]" name="demoAfterSuite" is-config="true" duration-ms="0" started-at="2021-02-25T03:54:30Z" finished-at="2021-02-25T03:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAfterSuite -->
+      </class> <!-- com.testng.starter.TestngTutorial -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

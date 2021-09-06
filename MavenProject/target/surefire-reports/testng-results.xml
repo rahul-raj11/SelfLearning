@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34" started-at="2021-02-26T02:15:31 IST" finished-at="2021-02-26T02:15:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34" started-at="2021-02-26T02:15:31 IST" finished-at="2021-02-26T02:15:31 IST">
+      <class name="com.maven.project.MavenProject.SampleDemoTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.maven.project.MavenProject.SampleDemoTest@7ea37dbf]" name="invokeBrowser" duration-ms="0" started-at="2021-02-26T02:15:31 IST" finished-at="2021-02-26T02:15:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- com.maven.project.MavenProject.SampleDemoTest -->
+      <class name="com.maven.project.MavenProject.SampleTest">
+        <test-method status="PASS" signature="invokeBrowser1()[pri:0, instance:com.maven.project.MavenProject.SampleTest@2aa3cd93]" name="invokeBrowser1" duration-ms="3" started-at="2021-02-26T02:15:31 IST" finished-at="2021-02-26T02:15:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser1 -->
+      </class> <!-- com.maven.project.MavenProject.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

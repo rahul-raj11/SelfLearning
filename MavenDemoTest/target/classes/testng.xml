@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Maven Suite">
+  <test thread-count="5" name="Test Maven Testing">
+    <packages>
+      <package name="com.qa.test.*"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

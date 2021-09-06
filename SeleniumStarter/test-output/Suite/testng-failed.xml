@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="URL" value="www.google.com"/>
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="com.testng.starter.TestngTutorial">
+        <methods>
+          <include name="demoAfterTest"/>
+          <include name="demoBeforeMethod"/>
+          <include name="demoAfterSuite"/>
+          <include name="demoBeforeSuite"/>
+          <include name="demoBeforeTest"/>
+          <include name="demoMethod2"/>
+          <include name="demoMethod5"/>
+          <include name="demoAftereMethod"/>
+          <include name="demoBeforeClass"/>
+          <include name="demoAfterClass"/>
+        </methods>
+      </class> <!-- com.testng.starter.TestngTutorial -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
